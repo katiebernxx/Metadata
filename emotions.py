@@ -29,7 +29,7 @@ def extract_emotions(chunk):
 
     return extracted_emotions
 
-def rank_emotions(script_text, verbose = False):
+def rank_emotions(script_text, num_to_display = 4, verbose = False):
     chunks = split_script(script_text)
     aggregated_scores = {}
 
@@ -48,4 +48,4 @@ def rank_emotions(script_text, verbose = False):
     if verbose:
         print("Final Ranked Emotions:", final_ranked_emotions)
 
-    return final_ranked_emotions
+    return final_ranked_emotions[:num_to_display]
