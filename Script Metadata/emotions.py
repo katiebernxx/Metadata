@@ -43,7 +43,7 @@ def rank_emotions(script_text, num_to_display = 4, verbose = False):
                 aggregated_scores[emotion] = score
 
     # Rank the aggregated emotions
-    final_ranked_emotions = sorted(aggregated_scores.items(), key=lambda item: item[1], reverse=True)
+    final_ranked_emotions = [key for key, value in sorted(aggregated_scores.items(), key=lambda item: item[1], reverse=True)]
 
     if verbose:
         print("Final Ranked Emotions:", final_ranked_emotions)
