@@ -165,7 +165,7 @@ tenacity
 tensorboard
 tensorboard-data-server
 tensorboard-plugin-wit
-tensorflow>=2.12,<3.0
+tensorflow
 tensorflow-estimator
 termcolor
 terminado
