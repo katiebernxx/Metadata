@@ -126,14 +126,12 @@ pydeck
 Pygments
 PyJWT
 PyMuPDF==1.24.9
-PyMuPDFb==1.24.9
 pyOpenSSL
 pyproject_hooks==1.1.0
 PySocks
 python-dateutil
 python-json-logger
 pytz
-pywinpty
 PyYAML
 pyzmq
 referencing
@@ -167,7 +165,7 @@ tenacity
 tensorboard
 tensorboard-data-server
 tensorboard-plugin-wit
-tensorflow==2.10.0
+tensorflow==2.11.0  # Use a compatible version
 tensorflow-estimator
 termcolor
 terminado
@@ -194,7 +192,6 @@ webencodings==0.5.1
 websocket-client
 Werkzeug
 widgetsnbextension
-win-inet-pton
 wrapt
 xxhash
 yarg==0.1.9
