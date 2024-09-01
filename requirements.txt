@@ -165,7 +165,7 @@ tenacity
 tensorboard
 tensorboard-data-server
 tensorboard-plugin-wit
-tensorflow==2.11.0  # Use a compatible version
+tensorflow>=2.12,<3.0
 tensorflow-estimator
 termcolor
 terminado
