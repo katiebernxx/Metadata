@@ -38,7 +38,6 @@ decorator
 defusedxml
 dill
 docopt==0.6.2
-en-core-web-sm
 exceptiongroup
 executing
 fastjsonschema
@@ -88,7 +87,6 @@ mdurl
 mistune
 mkl-fft
 mkl-random
-mkl-service==2.4.0
 mpmath
 multidict
 multiprocess
