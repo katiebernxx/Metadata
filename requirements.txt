@@ -165,8 +165,6 @@ tenacity
 tensorboard
 tensorboard-data-server
 tensorboard-plugin-wit
-tensorflow
-tensorflow-estimator
 termcolor
 terminado
 thinc
