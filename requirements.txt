@@ -1,6 +1,4 @@
 transformers
-re
-collections
 pandas
 streamlit
 fitz
